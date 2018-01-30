@@ -26,6 +26,8 @@ node ./index.js
 
 ### generate wallets
 
+NOTE: does not use very random seed yet...
+
 Once a wallet has been added to `coins.js`, you can just add a wallet
 
 ```sh
@@ -39,3 +41,7 @@ There is also a manual way to create wallets of coins not yet in the `coins.js` 
 node ./index.js
 <choose "create wallet from network hash">
 ```
+
+## TODO
+
+- [ ] add random seed to wallet generation!
